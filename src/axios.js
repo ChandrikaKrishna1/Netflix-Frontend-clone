@@ -1,0 +1,8 @@
+import axios from "axios";
+
+const instance = axios.create({
+  baseURL: "https://api.themoviedb.org/3",
+  //https://cors-anywhere.herokuapp.com/
+});
+
+export default instance;
